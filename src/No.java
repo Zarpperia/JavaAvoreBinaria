@@ -2,7 +2,7 @@ public class No {
     private int valor;
     private No  esquerda;
     private No  direita;
-    
+
     public No(int valor) {
         this.valor = valor;
 
@@ -25,7 +25,7 @@ public class No {
     public void setDireita(No direita) {
         this.direita = direita;
     }
-    
+
     
     public No(int valor, No esquerda, No direita) {
         this.valor    = valor;
