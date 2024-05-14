@@ -1,3 +1,10 @@
+## Diagrama de Classes
+<img src="documentation/images/diagramaDeClasses.png">
+
+
+## Árvore Binária do Exemplo
+<img src="documentation/images/arvoreBinariaExemplo.png">
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.

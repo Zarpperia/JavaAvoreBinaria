@@ -26,11 +26,11 @@ public class No {
         this.direita = direita;
     }
 
-    
-    public No(int valor, No esquerda, No direita) {
+
+    public No(int valor, No Esquerda, No Direita) {
         this.valor    = valor;
-        this.esquerda = esquerda;
-        this.direita  = direita;
+        this.esquerda = Esquerda;
+        this.direita  = Direita;
     }
 
     
