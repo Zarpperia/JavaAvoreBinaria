@@ -22,6 +22,7 @@ public class App {
 
         Avores.inserir(13);
         Avores.inserir(7);
-        Avores.inserir(4);        
+        Avores.inserir(4);
+                
     }
 }
