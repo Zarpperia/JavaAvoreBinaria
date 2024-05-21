@@ -39,5 +39,6 @@ public class App {
         System.err.println("");
         //Chamando o percorrerEmOrder(No no):void...
         Avores.percorrerEmOrdemDecrescente(Avores.getRaiz());
+        
     }
 }
