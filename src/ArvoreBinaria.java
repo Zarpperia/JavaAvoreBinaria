@@ -36,4 +36,44 @@ public class ArvoreBinaria {
             return noDaVez;
         }
     }
+ 
+    // Percorrer : técnica Pré-Ordem : nó-da-vez, filho esquerdo, filho direito..
+    public void percorrerPreOrdem(No no)
+    {
+        if (no != null) {
+            System.out.print(no.getValor() + " ");
+            this.percorrerPreOrdem(no.getEsquerda());
+            this.percorrerPreOrdem(no.getDireita());
+        }
+    }
+
+    // Percorrer : técnica Em-Ordem : filho esquerdo, nó-da-vez, filho direito..
+    public void percorrerEmOrdem(No no)
+    {
+        if (no != null) {
+            this.percorrerEmOrdem(no.getEsquerda());
+            System.out.print(no.getValor() + " ");
+            this.percorrerEmOrdem(no.getDireita());
+        }
+    }
+
+    // Percorrer : técnica Pos-Ordem : filho esquerdo, filho direito, nó-da-vez ..
+    public void percorrerPosOrdem(No no)
+    {
+        if (no != null) {
+            this.percorrerPosOrdem(no.getEsquerda());
+            this.percorrerPosOrdem(no.getDireita());
+            System.out.print(no.getValor() + " ");
+        }
+    }
+
+    // Percorrer : técnica Em-Ordem : filho direito, nó-da-vez, filho esquerdo..
+    public void percorrerEmOrdemDecrescente(No no)
+    {
+        if (no != null) {
+            this.percorrerEmOrdemDecrescente(no.getDireita());
+            System.out.print(no.getValor() + " ");
+            this.percorrerEmOrdemDecrescente(no.getEsquerda());
+        }
+    }
 }

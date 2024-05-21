@@ -5,9 +5,11 @@
 ## Árvore Binária do Exemplo
 <img src="documentation/images/arvoreBinariaExemplo.png">
 
-## Getting Started
+## Recursos Adicionais
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Documentação oficial do Java
+Tutoriais online e cursos gratuitos, como os oferecidos pela Codecademy e Coursera
+Lembre-se de que a prática constante é fundamental para se tornar um bom desenvolvedor Java. Explore, divirta-se e boa codificação! 🚀👩‍💻
 
 ## Folder Structure
 
